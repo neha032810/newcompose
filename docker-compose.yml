@@ -1,0 +1,9 @@
+version : '2.6.1'
+services: 
+    webserver:
+      image: nginx
+      ports:
+       - 8080:80/tcp
+      
+    database:
+      image: redis
